@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Indian Finance Study 2026</title>
+    <meta name="description" content="Help shape a solution built for NRIs, by someone who gets it. Share your India finance challenges in 5 minutes.">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Global Indian Finance Study 2026">
+    <meta property="og:description" content="A short independent study on how NRIs manage India-related finances investments, property, insurance, compliance, and family responsibilities.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXWGWZ3FLE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MXWGWZ3FLE');
+    </script>
+
+    <style>
+        :root {
+            --color-primary: #1a5f4a;
+            --color-primary-light: #2d8a6e;
+            --color-primary-dark: #0f3d2f;
+            --color-accent: #d4a574;
+            --color-accent-light: #e8c9a8;
+            --color-bg: #faf9f7;
+            --color-bg-warm: #f5f2ed;
+            --color-text: #2c3e50;
+            --color-text-light: #5a6c7d;
+            --color-white: #ffffff;
+            --shadow-soft: 0 4px 20px rgba(26, 95, 74, 0.08);
+            --shadow-hover: 0 8px 30px rgba(26, 95, 74, 0.12);
+            --border-radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 0;
+            background: var(--color-white);
+            border-bottom: 1px solid rgba(26, 95, 74, 0.1);
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .logo span {
+            color: var(--color-accent);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+            background: linear-gradient(180deg, var(--color-white) 0%, var(--color-bg) 100%);
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--color-accent-light);
+            color: var(--color-primary-dark);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 700;
+            color: var(--color-primary-dark);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--color-text-light);
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .cta-button:hover {
+            background: var(--color-primary-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .cta-button svg {
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover svg {
+            transform: translateX(4px);
+        }
+
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+
+        .hero-meta span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--color-text-light);
+            font-size: 14px;
+        }
+
+        .hero-meta svg {
+            color: var(--color-primary);
+        }
+
+        /* Pain Points */
+        .pain-points {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .section-title h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: var(--color-primary-dark);
+            margin-bottom: 12px;
+        }
+
+        .section-title p {
+            color: var(--color-text-light);
+            font-size: 16px;
+        }
+
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .pain-card {
+            background: var(--color-white);
+            padding: 28px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-soft);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .pain-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .pain-card .icon {
+            width: 48px;
+            height: 48px;
+            background: var(--color-bg-warm);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .pain-card .icon svg {
+            color: var(--color-primary);
+        }
+
+        .pain-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-primary-dark);
+        }
+
+        .pain-card p {
+            font-size: 15px;
+            color: var(--color-text-light);
+        }
+
+        /* REIT Focus */
+        .reit-section {
+            padding: 60px 0;
+            background: var(--color-bg-warm);
+        }
+
+        .reit-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .reit-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .reit-text h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: var(--color-primary-dark);
+            margin-bottom: 16px;
+        }
+
+        .reit-text p {
+            color: var(--color-text-light);
+            margin-bottom: 24px;
+        }
+
+        .reit-benefits {
+            list-style: none;
+        }
+
+        .reit-benefits li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .reit-benefits svg {
+            color: var(--color-primary);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .reit-visual {
+            background: var(--color-white);
+            border-radius: var(--border-radius);
+            padding: 32px;
+            box-shadow: var(--shadow-soft);
+        }
+
+        .reit-stat {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .reit-stat .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .reit-stat .label {
+            color: var(--color-text-light);
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .reit-divider {
+            height: 1px;
+            background: var(--color-bg-warm);
+            margin: 16px 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            border-radius: 20px;
+            padding: 60px 40px;
+            color: var(--color-white);
+        }
+
+        .cta-box h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+
+        .cta-box p {
+            opacity: 0.9;
+            margin-bottom: 32px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button-light {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--color-white);
+            color: var(--color-primary-dark);
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button-light:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: var(--color-text-light);
+            font-size: 14px;
+        }
+
+        footer a {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Global Indian <span>Finance Study 2026</span></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="hero-badge">🇮🇳 Building for NRIs, by someone who gets it</span>
+            <h1>Managing India Finances<br>Shouldn't Feel Like a Second Job</h1>
+            <p>We are building a solution to simplify new investments, insurance complexities, and money management for NRIs. <br>Your input will shape what we create.</p>
+
+            <a href="#" id="survey-cta-hero" class="cta-button">
+                Take the 5-Minute Survey
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+
+            <div class="hero-meta">
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                    </svg>
+                    5 minutes
+                </span>
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                    Anonymous
+                </span>
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                    </svg>
+                    Not a sales pitch
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="pain-points">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sound Familiar?</h2>
+                <p>These are the challenges NRIs tell us about most often</p>
+            </div>
+
+            <div class="pain-grid">
+                <div class="pain-card animate delay-1">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>
+                        </svg>
+                    </div>
+                    <h3>Property Headaches</h3>
+                    <p>Rental income, tenant issues, property taxes — all managed remotely with too many middlemen.</p>
+                </div>
+            
+                <div class="pain-card animate delay-2">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Parents' Finances</h3>
+                    <p>Helping aging parents navigate banking, insurance claims, and medical expenses from thousands of miles away.</p>
+                </div>
+            
+                <div class="pain-card animate delay-3">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
+                    <h3>Tax Filing Confusion</h3>
+                    <p>Capital gains, ITR forms — every year feels like starting from scratch with incomplete information.</p>
+                </div>
+            
+                <div class="pain-card animate delay-1">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        </svg>
+                    </div>
+                    <h3>Investing in India</h3>
+                    <p>REITs, Startups, mutual funds, AIFs — great options exist, but the execution and compliance feel overwhelming.</p>
+                </div>
+            
+                <div class="pain-card animate delay-2">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Insurance Maze</h3>
+                    <p>Health policies, life insurance, claims for parents — navigating Indian insurers from abroad is exhausting.</p>
+                </div>
+            
+                <div class="pain-card animate delay-3">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>Thinking of Coming Back?</h3>
+                    <p>RNOR status, foreign asset disclosure, re-integration planning — the return journey has its own financial complexity.</p>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <!--  <section class="reit-section">
+        <div class="container">
+            <div class="reit-content">
+                <div class="reit-text">
+                    <h2>Starting with What Matters Most: Income-Generating Investments</h2>
+                    <p>We're beginning with REITs and fixed-income investments in India — a way for NRIs to earn regular income from Indian real estate without the hassles of property ownership.</p>
+
+                    <ul class="reit-benefits">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                            </svg>
+                            <span><strong>Regular income</strong> from commercial real estate, without managing tenants</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                            </svg>
+                            <span><strong>Fully liquid</strong> — buy and sell on stock exchanges, unlike physical property</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                            </svg>
+                            <span><strong>Clear tax treatment</strong> — we'll help you understand NRI-specific implications</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                            </svg>
+                            <span><strong>Professional management</strong> — Grade A properties managed by experts</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="reit-visual">
+                    <div class="reit-stat">
+                        <div class="number">6-8%</div>
+                        <div class="label">Typical annual dividend yield from Indian REITs</div>
+                    </div>
+                    <div class="reit-divider"></div>
+                    <div class="reit-stat">
+                        <div class="number">₹10K</div>
+                        <div class="label">Minimum investment to get started</div>
+                    </div>
+                    <div class="reit-divider"></div>
+                    <div class="reit-stat">
+                        <div class="number">90%+</div>
+                        <div class="label">Profits distributed to investors quarterly</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Help Us Build What You Actually Need</h2>
+                <p>Your honest feedback will shape a service designed around what NRIs actually need — not what we assume you need.</p>
+
+                <a href="#" id="survey-cta-footer" class="cta-button-light">
+                    Take the Survey
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p> Building in 🇮🇳 for NRIs worldwide.</p>
+            <p style="margin-top: 8px;">Private and anonymous. No data sold. No spam.</p>
+        </div>
+    </footer>
+
+    <script>
+        // UTM Configuration
+        const SURVEY_BASE_URL = 'https://forms.gle/SSsjEYJJWwE9K3Yt8';
+
+        // Default UTM values (customize these)
+        const DEFAULT_UTM = {
+            utm_source: 'landing_page',
+            utm_medium: 'web',
+            utm_campaign: 'nri_finance_survey'
+        };
+
+        // Get UTM parameters from current URL or use defaults
+        function getUTMParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return {
+                utm_source: urlParams.get('utm_source') || DEFAULT_UTM.utm_source,
+                utm_medium: urlParams.get('utm_medium') || DEFAULT_UTM.utm_medium,
+                utm_campaign: urlParams.get('utm_campaign') || DEFAULT_UTM.utm_campaign,
+                utm_content: urlParams.get('utm_content') || null,
+                utm_term: urlParams.get('utm_term') || null
+            };
+        }
+
+        // Build survey URL with UTM parameters
+        function buildSurveyURL() {
+            const utm = getUTMParams();
+            const params = new URLSearchParams();
+
+            // Add non-null UTM parameters
+            Object.entries(utm).forEach(([key, value]) => {
+                if (value) params.set(key, value);
+            });
+
+            // Google Forms doesn't preserve query params, but we track the click
+            // The UTM is captured via GA before redirect
+            return SURVEY_BASE_URL;
+        }
+
+        // Track CTA clicks with UTM data
+        function trackAndRedirect(buttonId) {
+            const utm = getUTMParams();
+
+            // Send event to Google Analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'survey_cta_click', {
+                    'event_category': 'engagement',
+                    'event_label': buttonId,
+                    'utm_source': utm.utm_source,
+                    'utm_medium': utm.utm_medium,
+                    'utm_campaign': utm.utm_campaign,
+                    'utm_content': utm.utm_content,
+                    'utm_term': utm.utm_term
+                });
+            }
+
+            // Small delay to ensure tracking fires, then redirect
+            setTimeout(() => {
+                window.open(buildSurveyURL(), '_blank');
+            }, 150);
+        }
+
+        // Attach click handlers to CTA buttons
+        document.getElementById('survey-cta-hero').addEventListener('click', function(e) {
+            e.preventDefault();
+            trackAndRedirect('hero_cta');
+        });
+
+        document.getElementById('survey-cta-footer').addEventListener('click', function(e) {
+            e.preventDefault();
+            trackAndRedirect('footer_cta');
+        });
+
+        // Log UTM params to console for debugging
+        console.log('UTM Parameters:', getUTMParams());
+    </script>
+</body>
+</html>
